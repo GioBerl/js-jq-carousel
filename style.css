@@ -100,3 +100,17 @@ h1 {
 .fill {
     background-color: black;
 }
+
+.bottoni {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+.bottoni button {
+    width: 100px;
+    border-radius: 50%;
+    background-color: #363833;
+    color: white;
+}
