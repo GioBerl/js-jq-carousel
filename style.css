@@ -103,14 +103,16 @@ h1 {
 
 .bottoni {
     display: flex;
-    justify-content: space-between;
+    justify-content: CENTER;
     height: 50px;
     margin-bottom: 30px;
 }
 
 .bottoni button {
-    width: 100px;
+    width: 200px;
     border-radius: 50%;
     background-color: #363833;
     color: white;
+    font-size: 20px;
+    cursor: pointer;
 }
