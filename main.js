@@ -18,17 +18,23 @@ $(document).ready(function () {
 
     $(".next").on("click", function () {
         clearInterval(x);
+        $(".stop").hide();
+        $(".start").show();
         scorriAvanti();
     });
 
     $(".prev").on("click", function () {
         clearInterval(x);
+        $(".stop").hide();
+        $(".start").show();
         scorriIndietro();
     });
 
     //CLICK SUI PALLINI
     $(".slider-inner .rettangolo").on("click", function () {
         clearInterval(x);
+        $(".stop").hide();
+        $(".start").show();
         //PALLINI
         $(".fill").removeClass("fill");
         var indicePallino = $(this).index() + 1;
